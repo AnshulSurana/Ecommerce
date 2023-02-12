@@ -1,0 +1,58 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "ecommerce web portal depicting product page and cart page user journey",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest -c jest-unit.config.ts",
+    "start": "webpack-dev-server --mode=development",
+    "lint": "eslint 'src/**/*.{js,jsx,tsx,ts}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnshulSurana/Ecommerce.git"
+  },
+  "keywords": [
+    "React",
+    "Typescript",
+    "Webpack"
+  ],
+  "author": "surana.anshul@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnshulSurana/Ecommerce/issues"
+  },
+  "dependencies": {
+    "@styled-icons/bootstrap": "^10.47.0",
+    "@styled-icons/material": "^10.47.0",
+    "@testing-library/dom": "^8.20.0",
+    "@testing-library/react": "^13.4.0",
+    "@types/jest": "^27.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.4.1",
+    "jest-environment-jsdom": "^29.4.1",
+    "jest-fetch-mock": "^3.0.3",
+    "jest-html-reporter": "^3.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
+    "react-scroll": "^1.8.9",
+    "styled-components": "^5.3.6",
+    "styled-icons": "^10.47.0",
+    "ts-jest": "^29.0.5",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^3.1.1",
+    "webpack": "^5.75.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "webpack-cli": "^5.0.1"
+  },
+  "homepage": "https://github.com/AnshulSurana/Ecommerce#readme"
+}
